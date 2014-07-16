@@ -1,0 +1,9 @@
+('C:\\Users\\lesul_000\\Documents\\GitHub\\herding\\azod\\dist\\uploader102.exe',
+ False,
+ False,
+ 'dragon.ico',
+ None,
+ [],
+ None,
+ True,
+ 1405549801L)
