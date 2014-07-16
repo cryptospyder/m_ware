@@ -12,7 +12,7 @@ def ftpupload():
 	hostname = socket.gethostname()
 	zfile = "c:\\" + hostname + ".zip"
 	try:
-		ftp = FTP('192.168.0.101', "azod","azodisking")
+		ftp = FTP('192.168.0.103', "azod","azodisking")
 		ftp.storlines(str("STOR " + hostname + ".zip"), open(zfile, 'r'))
         
 	except Exception, e:  #you can specify type of Exception also
