@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+#compiled with py installer
+#pyinstaller -F -w --icon=dragon.ico uploader***.py
+
+
 import ftplib
 from ftplib import FTP
 import os
@@ -14,7 +18,10 @@ def ftpupload():
 	try:
 		ftp = FTP('192.168.0.101', "azod","azodisking")
 		ftp.storlines(str("STOR " + hostname + ".zip"), open(zfile, 'r'))
-        
+        zfile.close()
+        ftp.quit()
+
+
 	except Exception, e:  #you can specify type of Exception also
 		print str(e)
 

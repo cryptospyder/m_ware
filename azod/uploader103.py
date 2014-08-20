@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+#compiled with py installer
+#pyinstaller -F -w --icon=dragon.ico uploader***.py
+
+
 import ftplib
 from ftplib import FTP
 import os
