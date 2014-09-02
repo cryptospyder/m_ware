@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1409190814 source:c:\tools\malwarez\azod_uploader\uploader.cpp
+	<wininet.h>
+	<iostream>
+
+1409103135 source:c:\tools\malwarez\azod_uploader\xzip.cpp
+	<windows.h>
+	<tchar.h>
+	<time.h>
+	"xzip.h"
+
+1409102491 c:\tools\malwarez\azod_uploader\xzip.h
+
